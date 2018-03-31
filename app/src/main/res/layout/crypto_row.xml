@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    android:weightSum="2"
+    android:background="@drawable/elevation">
+<LinearLayout
+    android:weightSum="2"
+    android:orientation="vertical"
+    android:layout_weight="1"
+    android:layout_width="0dp"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:gravity="center"
+        android:textColor="#000"
+        android:layout_weight="1"
+        android:textSize="18dp"
+        android:id="@+id/currenncyName"
+        android:text="Currenncy Name"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+    <TextView
+        android:gravity="center"
+        android:textColor="#000"
+        android:text="Currenncy Price"
+        android:layout_weight="1"
+        android:textSize="18dp"
+        android:id="@+id/price"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+</LinearLayout>
+
+    <LinearLayout
+        android:weightSum="2"
+        android:orientation="vertical"
+        android:layout_weight="1.5"
+        android:layout_width="0dp"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/like_button"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:src="@drawable/ic_thumb_up_light_24dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp" />
+
+    </LinearLayout>
+
+</LinearLayout>
